@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+    font-family: 'Syne', sans-serif;
+}
+/* On applique un gris plus clair sur les paragraphes */
+p {
+   color: #313332;
+}
+/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
+.hover-effect img {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1) translateY(0px);
+}
+
+.hover-effect img:hover {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1.05) translateY(-10px);
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#menu-item-25{
+    order: 2;
+}
+
+#menu-item-25 a {
+	color:white;
+    padding:25px 45px;
+    font-size: 16px;
+     font-weight: 700;
+     Line-height: 19px; 
+     display: inline-block; 
+     background-color: #DC9F96; 
+     text-align: center;
+}
+
+#menu-item-25 a:hover{
+    background:  #C02E44;
+}
+.admin{
+    padding: 25px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: inline-flex;
+    align-items: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#logo{
+    height: 30px;
+    width: 100%;
+    margin-left: 25px;
+}
+
+#copyright{
+    height: 71px;
+    background:#ffffff;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around; 
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+
+.wp-caption-text{
+    font-family: Syne, sans-serif;
+    size: 48px;
+    position: relative;
+}
+
+.elementor .elementor-background-slideshow {
+    PADDING: 25px;
+}
+
+#monBouton{
+	width: 198px;
+	height: 55px;
+	background: #E0B9B4;
+	border-radius: 5px;
+	
+	font-family: "Syne", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+#monBouton:hover{
+	background:  #C02E44;
+}
+
+.formContactez{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+} 
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.nom,
+input.wpcf7-form-control.wpcf7-text.nom{
+    border-radius: 7px;
+}
+
+.nom {
+    display: flex;
+    justify-content: center;
+    width: 383px;
+    height: 71px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+
+}
+
+.message{
+    width: 383px;
+    height: 237px;
+    margin-top: 15px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    padding-bottom: 25px;
+}
+
+.wpcf7-form p{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 45px;
+}
+
+.envoi{
+    width: 198px;
+    height: 55px;
+    border:none;
+    margin-top: 25px;
+    background: #E0B9B4;
+    border-radius: 5px;
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.envoi:hover{
+    background:  #C02E44;
+ }
+ 
+/*ici commence mon form de quantity*/
+.quantiter{
+    display: flex;
+    justify-content: space-between;
+}
+.PlusMoins{
+    display: flex;  
+}
+.zero{
+    width: 65px;
+    border-radius:5px 0px 0px 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.adroite{
+    width: 31px;
+    border-radius:5px 0px 0px 5px;
+    background: #DC9F96;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.border{
+    border: 1px solid #fff;
+    width: 31px;
+}
+
+.btnQuantity{
+    width: 120px;
+    height: 56px;
+    background: #E0B9B4;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.btnQuantity:hover{
+	background:  #C02E44;
+}
+
+.btn{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+    color: #fff;
+}
+
+/* ici commence le formulaire de la page commander*/
+.InformationLivraison{
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.infoLiv{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.envoi:hover{
+    background:  #C02E44;
+}
+
