@@ -22,6 +22,10 @@ a{
     color:black;
     text-decoration: none;
 }
+#menu-item-24{
+    padding-right: 25px;
+}
+
 
 #menu-item-25{
     order: 2;
@@ -286,4 +290,79 @@ input.wpcf7-form-control.wpcf7-text.nom{
 .envoi:hover{
     background:  #C02E44;
 }
+@media (min-width:768px) and (max-width: 1024px) {
+    .PlusMoins {
+        display: flex;
+        width: 100%;
+    }
+    .btnQuantity {
+        width: 100%;
+        height: 56px;
+        background: #E0B9B4;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .InformationLivraison{
 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .nom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 71px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
+        border-radius: 7px;
+    }
+    
+
+    }
+
+    
+
+   
+
+@media (min-width:300px) and (max-width: 767.99px) {
+    .PlusMoins {
+        display: flex;
+        width: 100%;
+    }
+    .btnQuantity {
+        width: 100%;
+        height: 56px;
+        background: #E0B9B4;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .InformationLivraison{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .nom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 71px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
+        border-radius: 7px;
+    }
+    
+
+    }
