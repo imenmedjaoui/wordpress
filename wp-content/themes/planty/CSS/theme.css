@@ -86,7 +86,7 @@ ul{
 
 .wp-caption-text{
     font-family: Syne, sans-serif;
-    size: 48px;
+    font-size: 48px;
     position: relative;
 }
 
@@ -291,6 +291,7 @@ input.wpcf7-form-control.wpcf7-text.nom{
     background:  #C02E44;
 }
 @media (min-width:768px) and (max-width: 1024px) {
+    
     .PlusMoins {
         display: flex;
         width: 100%;
@@ -332,6 +333,37 @@ input.wpcf7-form-control.wpcf7-text.nom{
    
 
 @media (min-width:300px) and (max-width: 767.99px) {
+    #header{
+        display: block;
+    }
+    #logo{
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    
+    ul {
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    #menu-item-25 a {
+        color:white;
+        padding:25px 9px;
+        font-size: 16px;
+         font-weight: 700;
+         Line-height: 14px; 
+         display: inline-block; 
+         background-color: #DC9F96; 
+         text-align: center;
+        }
+    #menu-item-24 {
+        padding-right: 10px;
+        }
+    .admin {
+            padding: 10px;
+        }    
     .PlusMoins {
         display: flex;
         width: 100%;
@@ -364,5 +396,4 @@ input.wpcf7-form-control.wpcf7-text.nom{
         border-radius: 7px;
     }
     
-
     }
