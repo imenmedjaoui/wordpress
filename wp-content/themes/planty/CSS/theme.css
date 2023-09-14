@@ -133,19 +133,18 @@ input.wpcf7-form-control.wpcf7-text.nom{
 .nom {
     display: flex;
     justify-content: center;
-    width: 383px;
-    height: 71px;
+    width: 100%;
+	height:71px;
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
     background: #FFFFFF;
     box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
     border-radius: 7px;
-
 }
 
 .message{
-    width: 383px;
+    width: 100%;
     height: 237px;
     margin-top: 15px;
     border: none;
@@ -291,6 +290,9 @@ input.wpcf7-form-control.wpcf7-text.nom{
     background:  #C02E44;
 }
 @media (min-width:768px) and (max-width: 1024px) {
+    .fleur-contacte{
+        display: none;
+    }
     
     .PlusMoins {
         display: flex;
@@ -328,11 +330,8 @@ input.wpcf7-form-control.wpcf7-text.nom{
 
     }
 
-    
 
-   
-
-@media (min-width:300px) and (max-width: 767.99px) {
+@media (min-width:360px) and (max-width: 767.99px) {
     #header{
         display: block;
     }
@@ -364,6 +363,10 @@ input.wpcf7-form-control.wpcf7-text.nom{
     .admin {
             padding: 10px;
         }    
+    
+    .fleur-contacte{
+        display: none;
+    }
     .PlusMoins {
         display: flex;
         width: 100%;
@@ -382,18 +385,6 @@ input.wpcf7-form-control.wpcf7-text.nom{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
-    .nom {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 71px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        border: none;
-        background: #FFFFFF;
-        box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
-        border-radius: 7px;
     }
     
     }
