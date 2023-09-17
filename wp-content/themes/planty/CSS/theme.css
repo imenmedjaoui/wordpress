@@ -110,21 +110,6 @@ ul{
 	background:  #C02E44;
 }
 
-.formContactez{
-    display: flex;
-    justify-content: center;
-    
-    font-family: 'Syne';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-} 
 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.nom,
 input.wpcf7-form-control.wpcf7-text.nom{
     border-radius: 7px;
@@ -133,7 +118,7 @@ input.wpcf7-form-control.wpcf7-text.nom{
 .nom {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 383px;
 	height:71px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -144,7 +129,7 @@ input.wpcf7-form-control.wpcf7-text.nom{
 }
 
 .message{
-    width: 100%;
+    width: 383px;
     height: 237px;
     margin-top: 15px;
     border: none;
@@ -158,15 +143,25 @@ input.wpcf7-form-control.wpcf7-text.nom{
     display: flex;
     justify-content: center;
     margin: 25px 0px 0px 45px;
-}
 
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
 .envoi{
     width: 198px;
     height: 55px;
     border:none;
     margin-top: 25px;
     background: #E0B9B4;
-    border-radius: 5px;
+    border-radius: 7px;
     
     font-family: 'Syne';
     font-style: normal;
@@ -290,6 +285,59 @@ input.wpcf7-form-control.wpcf7-text.nom{
     background:  #C02E44;
 }
 @media (min-width:768px) and (max-width: 1024px) {
+    #header{
+        display: block;
+    }
+    #logo{
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+        margin-top: 0px;
+        justify-content: space-between;
+    }
+    #menu-item-25 a {
+        color:white;
+        padding:25px 9px;
+        font-size: 16px;
+         font-weight: 700;
+         Line-height: 14px; 
+         display: inline-block; 
+         background-color: #DC9F96; 
+         text-align: center;
+        }
+    #menu-item-24 {
+        padding-right: 10px;
+        }
+    .admin {
+            padding: 10px;
+        }    
+    .nom {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height:71px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
+        border-radius: 7px;
+    }
+    
+    .message{
+        width: 100%;
+        height: 237px;
+        margin-top: 15px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+        border-radius: 7px;
+        padding-bottom: 25px;
+    }
     .fleur-contacte{
         display: none;
     }
@@ -314,23 +362,8 @@ input.wpcf7-form-control.wpcf7-text.nom{
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .nom {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 71px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        border: none;
-        background: #FFFFFF;
-        box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
-        border-radius: 7px;
-    }
-    
-
-    }
-
-
+}
+   
 @media (min-width:360px) and (max-width: 767.99px) {
     #header{
         display: block;
@@ -363,28 +396,51 @@ input.wpcf7-form-control.wpcf7-text.nom{
     .admin {
             padding: 10px;
         }    
-    
-    .fleur-contacte{
-        display: none;
-    }
-    .PlusMoins {
-        display: flex;
-        width: 100%;
-    }
-    .btnQuantity {
-        width: 100%;
-        height: 56px;
-        background: #E0B9B4;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .InformationLivraison{
+        .nom {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height:71px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border: none;
+            background: #FFFFFF;
+            box-shadow: 7px 4px 14px rgba(0, 0, 0, 0.04);
+            border-radius: 7px;
+        }
+        
+        .message{
+            width: 100%;
+            height: 237px;
+            margin-top: 15px;
+            border: none;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+            border-radius: 7px;
+            padding-bottom: 25px;
+        }
+              
+        .fleur-contacte{
+            display: none;
+        }
+        .PlusMoins {
+            display: flex;
+            width: 100%;
+        }
+        .btnQuantity {
+            width: 100%;
+            height: 56px;
+            background: #E0B9B4;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .InformationLivraison{
 
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-    }
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        }
