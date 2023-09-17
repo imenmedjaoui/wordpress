@@ -142,7 +142,7 @@ input.wpcf7-form-control.wpcf7-text.nom{
 .wpcf7-form p{
     display: flex;
     justify-content: center;
-    margin: 25px 0px 0px 45px;
+    margin: 25px 0px 0px 0px;
 
     font-family: 'Syne';
     font-style: normal;
@@ -177,6 +177,9 @@ input.wpcf7-form-control.wpcf7-text.nom{
 
 .envoi:hover{
     background:  #C02E44;
+ }
+ .wpcf7-spinner {
+    display: none;
  }
  
 /*ici commence mon form de quantity*/
@@ -314,7 +317,10 @@ input.wpcf7-form-control.wpcf7-text.nom{
         }
     .admin {
             padding: 10px;
-        }    
+        }  
+    #branche{
+        background-image: none;
+    }  
     .nom {
         display: flex;
         justify-content: center;
@@ -341,6 +347,9 @@ input.wpcf7-form-control.wpcf7-text.nom{
     .fleur-contacte{
         display: none;
     }
+    .branche{
+        background-image: none;
+    }
     
     .PlusMoins {
         display: flex;
@@ -364,7 +373,7 @@ input.wpcf7-form-control.wpcf7-text.nom{
     }
 }
    
-@media (min-width:360px) and (max-width: 767.99px) {
+@media (min-width:320px) and (max-width: 767.99px) {
     #header{
         display: block;
     }
@@ -419,7 +428,10 @@ input.wpcf7-form-control.wpcf7-text.nom{
             border-radius: 7px;
             padding-bottom: 25px;
         }
-              
+        #branche{
+            background-image: none;
+        }
+           
         .fleur-contacte{
             display: none;
         }
